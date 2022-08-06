@@ -1,9 +1,12 @@
 # Conway's Game of Life
-desc
+An interactive simulation of John Conway's Game of Life created using Python's pygame library. 
 A short demonstration can be found here: 
 
 ## Introduction
 Intro...
+John Conway
+Ceullular automata
+regeneration
 
 ## Conway's Rules
 - Rule 1
@@ -21,5 +24,6 @@ GIF
 ## Files
 - **life.py** game
 - **patterns.py** patterns
+- **packages.txt** packagaes used
 
 
