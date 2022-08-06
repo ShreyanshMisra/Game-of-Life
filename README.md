@@ -1,5 +1,5 @@
 # Conway's Game of Life
-An interactive simulation of John Conway's Game of Life created using Python's pygame library. 
+An interactive simulation and visualizer of John Conway's Game of Life created using Python's pygame library. 
 A short demonstration can be found here: 
 
 ## Introduction
