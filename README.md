@@ -25,9 +25,9 @@ results
 GIF
 
 ## Files
-- **life.py** game
-- **patterns.py** patterns
-- **packages.txt** packagaes used
+- **life.py** - Game
+- **patterns.py** - Sample Initialization Patterns and Alternate Color Schemes
+- **packages.txt** - Python Packages to Install
 
 ## References
 - Melissa Gymrek MIT Lecture May 2010
