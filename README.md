@@ -10,7 +10,7 @@ The game is played on an infinite grid of square cells, and its evolution is onl
 regeneration
 
 ## Conway's Rules
-- Birth of a Cell: a cell that is dead at time $$t$$ will be alive at time $$t+1$$ if exactly three of its eight neighbours were alive at time $$t$$. 
+- Birth of a Cell: a cell that is dead at time $t$ will be alive at time $t+1$ if exactly three of its eight neighbours were alive at time $t$. 
 - Rule 2
 - Rule 3
 - Rule 3
