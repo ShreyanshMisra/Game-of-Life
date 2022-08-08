@@ -25,7 +25,7 @@ results
 GIF
 
 ## Files
-- **life.py** - Game
+- **life.py** - Game File
 - **patterns.py** - Sample Initialization Patterns and Alternate Color Schemes
 - **packages.txt** - Python Packages to Install
 
