@@ -8,7 +8,7 @@ GIF
 
 ## Conway's Rules
 The game is played on an infinite grid of square cells where these cells can be initialized as "alive" or "dead". The evolution of these cell patterns is only determined by it's initial state, and is dependent of a set of defined rules:
-- **Birth:** a cell that is dead at time $t$ will be alive at time $t+1$ if exactly three of it's neighbours were alive at time $t$.
+- **Birth:** a cell that is dead at time $t$ will be alive at time $t+1$ if three of it's neighbours were alive at time $t$.
 - **Death:** a cell alive at time $t$ dies at time $t+1$ if it has less than two live neighbors or if it has more than three live neighbors. 
 - **Survival:** a cell survives from $t$ to $t+1$ if only two or three of it's neighbors were alive at time $t$. 
  These three simple rules allow the game board to evolve based on the board's initial state. This allows us to create patterns or "life-forms" on the board. 
