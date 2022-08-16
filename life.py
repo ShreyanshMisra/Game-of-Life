@@ -2,14 +2,12 @@ import pygame
 import time
 import numpy as np
 
-# Initializing Colors (using a black and blue theme here, others are included in patterns.py)
-background = (10, 10, 40)
-grid = (30, 30, 60)
-nextDeath = (200, 200, 225)
-nextAlive = (255, 255, 215)
+background = (45, 8, 21)
+grid = (195, 38, 191)
+nextDeath = (120, 23, 56)
+nextAlive = (255, 50, 120)
 
 
-# Game Rules
 def update(screen, cells, size, progress=False):
     updatedCells = np.zeros((cells.shape[0], cells.shape[1]))
 
@@ -65,12 +63,19 @@ def main():
                 if event.key == pygame.K_SPACE:
                     running = not running 
                     update(screen, cells, 10)
+                
+                # press return to restart game
+                if event.key == pygame.K_RETURN:
+                    main()
+                    return
 
             if pygame.mouse.get_pressed()[0]:
                 pos = pygame.mouse.get_pos()
                 cells[pos[1] // 10, pos[0] // 10] = 1
                 update(screen, cells, 10)
                 pygame.display.update()
+
+                
 
         screen.fill(grid)
 
@@ -83,9 +88,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
