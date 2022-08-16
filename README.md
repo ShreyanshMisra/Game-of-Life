@@ -20,7 +20,7 @@ These three simple rules allow the game board to evolve based on the board's ini
 - Press the `space bar` to run the game and see the pattern evolve. 
 - Press `return` to clear the board.
 
-GIF
+https://user-images.githubusercontent.com/80748482/184883921-f4dd2b20-f25a-499d-afb9-2a9ab8993286.mp4
 
 ## Files
 - **life.py** - Project file
