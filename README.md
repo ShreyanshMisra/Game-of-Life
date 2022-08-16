@@ -24,7 +24,6 @@ GIF
 
 ## Files
 - **life.py** - Project file
-- **patterns.py** - Sample initialization patterns and alternate game board color schemes
 - **packages.txt** - Python packages needed to run this project
 
 ## References
