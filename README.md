@@ -15,6 +15,10 @@ The game is played on an infinite grid of square cells where these cells can be 
 These three simple rules allow the game board to evolve based on the board's initial state. This allows us to create patterns or "life-forms" on the board. 
 
 ## Results
+### How to Play
+- 'Left click' on a cell in the grid to highlight it, initializing it to alive. You can also hold 'Left click' and drag your mouse cursor to highlight multiple grids quickly.
+- Press the 'space bar' to run the game and see the pattern evolve. 
+- Press `return` to clear the board.
 GIF
 
 ## Files
