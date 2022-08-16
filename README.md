@@ -4,7 +4,7 @@ An interactive simulation and visualizer of John Conway's Game of Life created u
 ## Introduction
 The Game of Life is a zero-player game developed by John Conway in 1970. It is played on an infinite grid of square cells and relies on the principles of cellular-automaton; at each moment in time, a cell can change state depending on the states of it's neighboring cells. 
 
-GIF
+[GIF](https://user-images.githubusercontent.com/80748482/184884421-828383c4-238f-459c-abec-8c13d7d63d31.mp4)
 
 ## Conway's Rules
 The game is played on an infinite grid of square cells where these cells can be initialized as "alive" or "dead". The evolution of these cell patterns is only determined by it's initial state, and is dependent of a set of defined rules:
@@ -20,7 +20,7 @@ These three simple rules allow the game board to evolve based on the board's ini
 - Press the `space bar` to run the game and see the pattern evolve. 
 - Press `return` to clear the board.
 
-https://user-images.githubusercontent.com/80748482/184883921-f4dd2b20-f25a-499d-afb9-2a9ab8993286.mp4
+https://user-images.githubusercontent.com/80748482/184884504-36d773f7-e371-410d-a6c7-6bb0c99ea89c.mp4
 
 ## Files
 - **life.py** - Project file
