@@ -16,7 +16,7 @@ These three simple rules allow the game board to evolve based on the board's ini
 
 ## Results
 ### How to Play
-- `Left click` on a cell in the grid to highlight it, initializing it to alive. You can also hold `Left click` and drag your mouse cursor to highlight multiple grids quickly.
+- `Left click` on a cell in the grid to highlight it, initializing it to alive. You can also hold `left click` and drag your mouse cursor to highlight multiple grids quickly.
 - Press the `space bar` to run the game and see the pattern evolve. 
 - Press `return` to clear the board.
 GIF
